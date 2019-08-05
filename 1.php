@@ -12,9 +12,30 @@
 
 // 1. Class adalah sebuah konsep oop yang digunakan
 // untuk membungkus data atau abstraksi prosedural atau
-// library untuk menyimpan property dan method
+// library untuk menyimpan property dan method.
 
-// 2. Property adalah   
+// 2. Property bisa di sebut juga dengan variable dari Class.
 
+// 3. Method adalah suatu operasi berupa fungsi-fungsi yang dapat
+// dapat di kerjakan oleh suatu objek.
+
+// contoh Class, property dan method
+
+// ini adalah class yg bernama "motor"
+class motor{
+	// ini adalah property
+	var $warna;
+	var $merek;
+
+	// ini adalah method
+	function maju(){
+		// isi fungsi
+	}
+
+	function mundur(){
+		//isi fungsi
+	}
+
+}
 
 ?>
