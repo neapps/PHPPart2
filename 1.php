@@ -22,7 +22,7 @@
 // contoh Class, property dan method
 
 // ini adalah class yg bernama "motor"
-class motor{
+class Motor{
 	// ini adalah property
 	var $warna;
 	var $merek;
