@@ -36,9 +36,7 @@ class Motor{
 		//isi fungsi
 	}
 
-	//output class
-	$Motor = new Motor();
-
 }
 
-?>
+//output class
+$Motor = new Motor();
