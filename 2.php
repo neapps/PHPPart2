@@ -21,6 +21,7 @@ class Binatang{
 
 }
 
+//output class
 $Binatang = new Binatang();
 
 //memanggil method tampikan_Binatang
