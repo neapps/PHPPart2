@@ -2,7 +2,7 @@
 // ==================================
 // Construct dan Destructor pada PHP
 // ==================================
-
+// Construct adalah 
 class Binatang{
 	var $nama;
 	var $warna;
@@ -17,9 +17,14 @@ class Binatang{
 		echo "Ini adalah destruct <br/>";
 	}
 
-	//method Binatang
+	//method tampilkan nama Binatang
 	function tampilkan_nama(){
 		return "Ini adalah Binatang kucing <br/>";
+	}
+
+	//method tampilkan warna Binatang
+	function warna_kulit(){
+		return "Warna kulit abu-abu <br/>";
 	}
 }
 
@@ -28,4 +33,5 @@ $Binatang = new Binatang();
 
 // memanggil method tampilkan_nama Binatang dari class Binatang
 echo $Binatang->tampilkan_nama();
+echo $Binatang->warna_kulit();
 ?>
