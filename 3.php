@@ -1,8 +1,12 @@
 <?php
 // ==================================
-// Construct dan Destructor pada PHP
+// Construct dan Destruct pada PHP
 // ==================================
-// Construct adalah 
+// Construct adalah method khusus yang akan dijalankan secara 
+// otomatis pada saat sebuah objek dibuat (instansiasi), yakni 
+// ketika perintah “new” dijalankan.
+// Sedangkan Destruct adalah method khusus yang dijalankan 
+// secara otomatis pada saat sebuah objek dihapus.
 class Binatang{
 	var $nama;
 	var $warna;
